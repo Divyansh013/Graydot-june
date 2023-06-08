@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="navbar">
+        <h1>Drag images from first container</h1>
+    </header>
+    <div class="container-wrapper"> 
+        <div class="container" id="container1"> <!-- first container fr images -->
+          <img src="image.jpeg" class="item">
+          <img src="image1.jpeg" class="item">
+          <img src="image2.jpeg" class="item">
+        </div>
+      
+        <div class="container" id="container2"></div> <!--initially empty right container -->
+      </div>
+      
+      <div class="button-wrapper">
+        <button class="reset-button" onclick="resetPage()">Reset</button>
+      </div>
+      
+      <script src="app.js"></script>      
+</body>
+</html>
